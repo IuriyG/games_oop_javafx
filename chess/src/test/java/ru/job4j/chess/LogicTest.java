@@ -12,7 +12,7 @@ import static org.junit.Assert.assertThat;
 
 public class LogicTest {
 
-    @Test(expected = IllegalStateException.class)
+    @Test
     public void moveIsNotPossible() {
         Logic logic = new Logic();
         Figure bishopBlack = new BishopBlack(Cell.F1);
